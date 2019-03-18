@@ -1,7 +1,7 @@
 {
-    "name": "alt-three/segment",
+    "name": "lifeonscreen/segment",
     "description": "A Segment Bridge For Laravel 5",
-    "keywords": ["segment", "bridge", "segment.com", "segment.io", "api", "Alt Three"],
+    "keywords": ["segment", "bridge", "segment.com", "segment.io", "api", "Alt Three", "LifeOnScreen"],
     "license": "MIT",
     "authors": [
         {
