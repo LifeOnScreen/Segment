@@ -66,9 +66,11 @@ class SegmentServiceProvider extends ServiceProvider
      */
     protected function setupQueue()
     {
-        $this->app->queue->looping(function () {
-            Segment::flush();
-        });
+        if(config('segment.flush') === 1) {
+            $this->app->queue->looping(function () {
+                Segment::flush();
+            });
+        }
     }
 
     /**

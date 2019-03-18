@@ -40,4 +40,19 @@ return [
     */
 
     'init_options' => [],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Segment Flush Options
+    |--------------------------------------------------------------------------
+    |
+    | This option toggles Segment flush, which will forcibly flush data to Segment servers.
+    |
+    | See: https://segment.com/docs/sources/server/php/#flush.
+    |
+    | Default: 0
+    |
+    */
+
+    'flush' => 1,
 ];
